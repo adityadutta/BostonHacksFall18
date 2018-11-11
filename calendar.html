@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Event Calendar Page</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<style>
+	#cal{
+		 margin-left:230px;
+	}
+
+	p{
+		text-align: center;
+	}
+</style>
+<body>
+
+	<!-- Navigation -->
+	<header>
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"> </span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+							<a class="nav-link" href="index.html#experience"> Project Info </a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link" href="calendar.html"> View Event Calendar </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	</header>
+
+
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+
+<!--- Effects -->
+
+<div id="experience">
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4"> Events Calendar </h1>
+	</div>
+	<hr>
+</div>
+</div>
+
+	<p> View the calendar to see when events are currently planned. Add the calendar to your calendars and add events as needed in the future.  </p>
+
+	<div id="cal">
+		<iframe src="https://calendar.google.com/calendar/embed?src=3qaaig988gtuu337vek48ncg10%40group.calendar.google.com&ctz=America%2FToronto"  style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+ </div>
+
+</div>
+
+
+</body>
+</html>
